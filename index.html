@@ -384,7 +384,7 @@ main{max-width:920px;margin:0 auto;padding:24px 16px;}
     <div class="modal-img-wrap">
       <img class="modal-img" id="m-img" src="" alt="">
       <div class="modal-img-ov"></div>
-      <div class="modal-num" id="m-num"></div>
+      
     </div>
     <div class="modal-body">
       <div class="modal-name-wrap">
@@ -615,7 +615,7 @@ function openModal(card){
   document.getElementById('m-reading').classList.remove('show');
 
   img.src=card.image;
-  document.getElementById('m-num').textContent=card.num;
+ 
   document.getElementById('m-name-ja').textContent=card.name;
   document.getElementById('m-name-sub').textContent=card.sub;
   document.getElementById('m-name-en').textContent=card.en;
